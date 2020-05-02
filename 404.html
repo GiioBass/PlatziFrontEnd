@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/?family=Muli:wght@200&display=swap" rel="tylesheet">
+	<link rel="stylesheet" href="styles/styles.css">
+	<title></title>
+</head>
+ <style>
+
+.error__title{
+	color: white;
+	font-size: 100px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.error__description{
+	color: white;
+}
+@keyframes pulse {
+  0% {transform: scale(1);}
+  50% {transform: scale(1.3);}
+  100% {transform: scale(1);}
+}
+.pulse {
+  animation-name: pulse;
+  animation-duration: 1s;
+   animation-iteration-count: infinite;
+}
+ 	
+ </style>
+<body>
+	<header class="header">
+		<img class="header__img" src="Images/logo-platzi.png">
+	</header>
+	<section class="login error">
+			<h1 class="error__title pulse">404</h1>
+			<p class="error__description">Página no encontrada</p>
+	</section>
+	<footer class="footer">
+		<a href="/">Términos de uso</a>
+		<a href="/">Declaración de privacidad</a>
+		<a href="/">Centro de ayuda</a>
+	</footer>
+</body>
+</html>
